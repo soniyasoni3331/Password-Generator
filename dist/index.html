@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body class="bg-slate-900 flex items-center h-screen w-screen">
+    <div
+      class="h-96 w-96 text-white text-center m-auto border-2 border-zinc-50 rounded"
+    >
+      <h1 class="text-3xl font-bold mx-3 my-4">Password Generator</h1>
+      <input
+        id="password"
+        value=" "
+        class="rounded px-2 text-black"
+        type="text"
+        placeholder="Click on Generate button"
+      />
+      <div>
+        <button
+          id="generate"
+          class="bg-orange-600 font-semibold rounded p-1 mx-1 my-4"
+        >
+          Generate
+        </button>
+        <button
+          id="copy"
+          class="bg-orange-600 font-semibold rounded p-1 mx-1 my-4"
+        >
+          Copy to Clipboard
+        </button>
+      </div>
+      <div class="flex justify-between px-12 py-4 flex-col font-semibold">
+        <div class="flex justify-between m-1">
+          <label for="">Password Length</label>
+          <input
+            id="length"
+            class="text-black w-12 rounded"
+            type="number"
+            value="6"
+          />
+        </div>
+        <div class="flex justify-between m-1">
+          <label for="">Include uppercase letters</label>
+          <input id="uppercase" type="checkbox" value="unChecked" />
+        </div>
+        <div class="flex justify-between m-1">
+          <label for="">Include lowercase letters</label>
+          <input id="lowercase" type="checkbox" value="unChecked" />
+        </div>
+        <div class="flex justify-between m-1">
+          <label for="">Include numbers</label>
+          <input id="number" type="checkbox" value="unChecked" />
+        </div>
+        <div class="flex justify-between m-1">
+          <label for="">Include symbols</label>
+          <input id="symbols" type="checkbox" value="unChecked" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
