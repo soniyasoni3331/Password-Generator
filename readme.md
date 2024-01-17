@@ -1,8 +1,8 @@
-#Password Generator with Tailwind CSS
-#Overview
+# Password Generator with Tailwind CSS
+# Overview
 This is a simple password generator project built using HTML, JavaScript, and Tailwind CSS. The purpose of this project is to create strong and secure passwords with various combinations of characters, including symbols, numbers, lowercase, and uppercase characters.
 
-#Features
+# Features
 Generate random passwords with customizable length.
 Include symbols, numbers, lowercase, and uppercase characters in the generated passwords.
 Copy password to the clipboard with a single click.
